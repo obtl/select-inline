@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitionnal//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+    <head>
+        <title>test jQuery !</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=charset=iso-8859-1" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="select-inline.js"></script>
+        <script type="text/javascript">         
+            $(function()
+            {
+                $('#codeSecteur2').selectInline();//.css('color','red');
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Lorem ipsum dolor sit amet</h1>
+                <p>
+                   Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Praesent sit amet libero odio.
+                   Maecenas auctor varius lorem at commodo. Praesent egestas consectetur hendrerit. Pellentesque
+                   condimentum dictum enim, scelerisque convallis erat mollis quis. Ut cursus tellus sed odio feugiat
+                   aliquam. Aenean vel orci nunc. Cras pharetra tortor a elit laoreet <a href="#">non ornare magna fermentum</a>. Fusce
+                   convallis tincidunt rhoncus. Nunc ac elit in tellus facilisis euismod. Donec vel mi urna. Aliquam in
+                   urna dolor, <a href="#">non blandit sapien</a>. Proin consequat, arcu non dignissim semper, nibh tellus condimentum
+                   turpis, vel ornare ipsum massa rhoncus eros.
+                </p>
+
+		  <form>
+		  	<select id="codeSecteur2" data-name="codeSecteur2" class="form-control input-sm ">
+		  		<option></option>
+		  		<option value="1" selected>Tour de contrôle</option>
+		  		<option value="2">Tarmac</option>
+		  		<option value="3">Chargement</option>
+		  	</select>
+		  </form>
+    </body>
+</html>
